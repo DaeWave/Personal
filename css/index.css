@@ -1,0 +1,243 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  height: 100%;
+}
+
+header {
+  background-color: #404B67;
+  height: auto;
+  text-align: center;
+}
+
+header .container .row #left-side {
+  padding-top: 15%;
+}
+
+header .container .row #left-side ul {
+  list-style-type: none;
+}
+
+header .container .row #left-side ul .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  gap: 40px;
+  margin-left: 30px;
+  margin-top: 10%;
+}
+
+header .container .row #center {
+  padding-top: 5%;
+}
+
+header .container .row #right-side {
+  color: white;
+}
+
+header .container .row #right-side .pers-info {
+  padding-top: 30%;
+}
+
+header .container .row #right-side .pers-info h4 {
+  font-size: 20px;
+  color: gray;
+  font-style: italic;
+}
+
+header .container .row #right-side .pers-info h2 {
+  font-size: 30px;
+}
+
+header .container .row #right-side .pers-info p {
+  margin-top: 4%;
+  font-size: 16px;
+}
+
+main {
+  border: 0;
+}
+
+main #section1 {
+  background-color: #61729C;
+  height: auto;
+}
+
+main #section1 .container {
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+main #section1 .container .row #left-side {
+  text-align: center;
+  color: white;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+main #section1 .container .row #left-side h4 {
+  color: #404B67;
+  font-size: 20px;
+  font-style: italic;
+}
+
+main #section1 .container .row #left-side h3 a {
+  color: #FFA800;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+main #section1 .container .row #left-side h2 {
+  font-size: 30px;
+}
+
+main #section1 .container .row #left-side p {
+  font-size: 16px;
+}
+
+main #section1 .container .row #right-side {
+  color: white;
+  margin-top: 3%;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+main #section1 .container .row #right-side h2 {
+  font-size: 30px;
+}
+
+main #section1 .container .row #right-side p {
+  font-size: 16px;
+}
+
+main #section1 .container #small-cards #cd-left {
+  text-align: center;
+}
+
+main #section1 .container #small-cards #cd-left a {
+  text-decoration: none;
+}
+
+main #section1 .container #small-cards #cd-right {
+  text-align: center;
+}
+
+main #section1 .container #small-cards #cd-right a {
+  text-decoration: none;
+}
+
+main #section2 {
+  background-color: #404B67;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+main #section2 .container #info {
+  text-align: center;
+  color: white;
+  margin-bottom: 5%;
+  width: 80%;
+  margin-left: 10%;
+}
+
+main #section2 .container #info h4 {
+  font-size: 20px;
+  font-style: italic;
+  color: gray;
+}
+
+main #section2 .container #info h2 {
+  font-size: 30px;
+}
+
+main #section2 .container #info p {
+  font-size: 16px;
+}
+
+main #section2 .container .projects .card-body {
+  text-align: center;
+}
+
+main #section3 {
+  background-color: #61729C;
+  height: auto;
+  text-align: center;
+}
+
+main #section3 #top-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  color: white;
+  gap: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #section3 #top-section .lets-talk {
+  width: 400px;
+}
+
+main #section3 #top-section .lets-talk h3 {
+  font-size: 30px;
+  font-style: italic;
+}
+
+main #section3 #top-section .lets-talk h4 {
+  color: #FFA800;
+  font-size: 20px;
+}
+
+main #section3 #top-section .lets-talk h4 a {
+  text-decoration: none;
+  color: #FFA800;
+  font-size: 20px;
+}
+
+main #section3 #top-section .lets-talk p {
+  font-size: 16px;
+}
+
+main #section3 #bottom-section {
+  color: white;
+  padding-bottom: 10%;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #section3 #bottom-section #social-media h2 {
+  font-size: 30px;
+  font-style: italic;
+}
+
+main #section3 #bottom-section #social-media ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  margin-top: 3%;
+}
+/*# sourceMappingURL=index.css.map */

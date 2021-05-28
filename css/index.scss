@@ -1,0 +1,349 @@
+// Index stylesheet
+
+// Bsic styling for global and body
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  height: 100%;
+  // background-color: #fcf4ff;
+}
+
+// Header styling, includes photo and basic information styling.
+header {
+  background-color: #404B67;
+  height: auto;
+  text-align: center;
+
+  .container {
+
+    .row {
+
+      #left-side {
+        padding-top: 15%;
+
+        ul {
+          list-style-type: none;
+
+          .social-media {
+            display: flex;
+            text-align: center;
+            gap: 40px;
+            margin-left: 30px;
+            margin-top: 10%;
+          }
+        }
+      }
+
+      #center {
+        padding-top: 5%;
+      }
+
+      #right-side {
+        color: white;
+
+        .pers-info {
+          padding-top: 30%;
+
+          h4 {
+            font-size: 20px;
+            color: gray;
+            font-style: italic;
+          }
+
+          h2 {
+            font-size: 30px;
+          }
+
+          p {
+            margin-top: 4%;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Main information of the webpage styling in sections.
+main {
+  border: 0;
+
+  #section1 {
+    background-color: #61729C;
+    height: auto;
+
+    .container {
+      padding-top: 5%;
+      padding-bottom: 10%;
+
+      .row {
+        #left-side {
+          text-align: center;
+          color: white;
+          margin-bottom: 5%;
+          margin-left: 5%;
+          margin-right: 5%;
+
+          h4 {
+            color: #404B67;
+            font-size: 20px;
+            font-style: italic;
+          }
+
+          h3 {
+            a {
+              color: #FFA800;
+              text-decoration: none;
+              font-size: 20px;
+            }
+          }
+
+          h2 {
+            font-size: 30px;
+          }
+
+          p {
+            font-size: 16px;
+          }
+        }
+
+        #right-side {
+          color: white;
+          margin-top: 3%;
+          text-align: center;
+          margin-left: 5%;
+          margin-right: 5%;
+
+          h2 {
+            font-size: 30px;
+          }
+
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+
+      #small-cards {
+        #cd-left {
+          text-align: center;
+
+          a {
+            text-decoration: none;
+          }
+        }
+
+        #cd-right {
+          text-align: center;
+
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  // Projects and portfolio styling.
+  #section2 {
+    background-color: #404B67;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+
+    .container {
+
+      #info {
+        text-align: center;
+        color: white;
+        margin-bottom: 5%;
+        width: 80%;
+        margin-left: 10%;
+
+        h4 {
+          font-size: 20px;
+          font-style: italic;
+          color: gray;
+        }
+
+        h2 {
+          font-size: 30px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+      }
+
+      .projects {
+        .card-body {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  // Basic styling for contact info and the future form that will be in place.
+  #section3 {
+    background-color: #61729C;
+    height: auto;
+    text-align: center;
+
+    #top-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-top: 15%;
+      padding-bottom: 15%;
+      color: white;
+      gap: 5%;
+      align-items: center;
+
+      .lets-talk {
+        width: 400px;
+
+        h3 {
+          font-size: 30px;
+          font-style: italic;
+        }
+
+        h4 {
+          color: #FFA800;
+          font-size: 20px;
+
+          a {
+            text-decoration: none;
+            color: #FFA800;
+            font-size: 20px;
+          }
+        }
+
+        p {
+          font-size: 16px;
+        }
+      }
+
+      // Styling for the future form
+
+      // .status-dir {
+      //   .form {
+      //     width: 40%;
+      //     min-width: 400px;
+      //     border: solid white;
+      //     border-radius: 25px;
+      //     background-color: #FFA800;
+
+      //     form {
+      //       padding: 10%;
+
+      //       h2 {
+      //         font-size: 30px;
+      //         font-style: italic;
+      //         color: rgb(104, 104, 104);
+      //         margin-bottom: 10%;
+      //       }
+
+      //       label {
+      //         font-size: 0%;
+      //       }
+
+      //       input {
+      //         text-align: center;
+      //       }
+
+      //       textarea {
+      //         text-align: center;
+      //       }
+
+      //       button {
+      //         width: 100px;
+      //         background-color: white;
+      //         border-radius: 25px;
+      //         border: white;
+      //         color: rgb(104, 104, 104);
+      //         height: 35px;
+      //         font-size: 20px;
+      //         padding-bottom: 1%;
+      //         transition: .3s ease #61729C;
+      //       }
+
+      //       button[type="submit"]:hover {
+      //         background-color: cadetblue;
+      //       }
+      //     }
+
+      //   }
+
+      //   #status {
+      //     width: 90%;
+      //     max-width: 500px;
+      //     text-align: center;
+      //     padding: 10px;
+      //     margin: 0 auto;
+      //     border-radius: 8px;
+      //     margin-bottom: 10%;
+      //     margin-top: 10%;
+      //   }
+
+      //   .success {
+      //     background-color: rgb(104, 104, 104);
+      //     color: rgb(215, 281, 150);
+      //     margin-bottom: 10%;
+      //     animation: status 4s ease forwards;
+      //   }
+
+      //   .error {
+      //     background-color: rgb(104, 104, 104);
+      //     color: rgb(250, 129, 92);
+      //     animation: status 4s ease forwards;
+      //   }
+
+      //   @keyframes status {
+      //     0% {
+      //       opacity: 1;
+      //       pointer-events: all;
+      //     }
+
+      //     90% {
+      //       opacity: 1;
+      //       pointer-events: all;
+      //     }
+
+      //     100% {
+      //       opacity: 0;
+      //       pointer-events: none;
+      //     }
+      //   }
+      // }
+    }
+
+    // Basic styling for more social links and contact details.
+    #bottom-section {
+      color: white;
+      padding-bottom: 10%;
+      text-align: center;
+      justify-content: center;
+
+      #social-media {
+        h2 {
+          font-size: 30px;
+          font-style: italic;
+        }
+
+        ul {
+          list-style-type: none;
+          display: flex;
+          justify-content: center;
+          gap: 30px;
+          margin-top: 3%;
+        }
+      }
+    }
+  }
+}
+
+// Done
